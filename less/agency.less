@@ -1,0 +1,156 @@
+@import "variables.less";
+@import "mixins.less";
+
+// Global Components
+
+
+p {
+	font-size: 14px;
+}
+
+p.large {
+	font-size: 16px;
+
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+	outline: none;
+}
+
+a {
+	color: @brand-primary;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+	color: darken(@brand-primary, 10%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	.heading-font;
+	font-weight: 700;
+    color: @branco;
+}
+
+
+.tituloLogo h1 {
+    color: @branco;
+}
+
+.conteudo h3 {
+    
+}
+
+.programas, .texto {
+    .radius(10px);
+    border: 2px solid #ccc;
+    padding:10px;
+    .gradient();
+}
+
+.texto {
+    background: white;
+    margin-top:0px;
+	text-align:justify;
+}
+
+.img-centered {
+	margin: 0 auto;
+}
+
+.bg-light-gray {
+	background-color: @gray-lighter;
+}
+
+.bg-darkest-gray {
+	background-color: @gray-darkest;
+}
+
+// Restyled Primary Buttons
+
+.btn-primary {
+	.button-variant(white; @brand-primary; @brand-primary);
+	.heading-font;
+	font-weight: 700;
+}
+
+.btn-xl {
+	.button-variant(white; @brand-primary; @brand-primary);
+	.heading-font;
+	font-weight: 700;
+	border-radius: 3px;
+	font-size: 18px;
+	padding: 20px 40px;
+}
+
+//nav Bar
+
+
+.botoes button {
+    border:none;
+	margin-top:20px;
+	margin-right:20px;
+	width:120px;
+	height:40px;
+    .transition(0.8s);
+    &:focus, &:active {
+        outline: none;
+    }
+}
+
+.sanfona {
+    
+    h5, h4 {    
+        .gradient();
+        border:1px solid @brand-primary;
+        .radius(3px);
+    }
+    
+    strong:first-child {
+        color:green;
+    }
+
+}
+
+.teamViewAten {
+    h5 {
+        color:red;
+        border: 1px solid red;
+    }
+    
+    p {
+        border-bottom: 3px solid red;
+    }
+}
+
+
+
+@media(min-width:768px) {
+
+}
+
+@media(min-width:768px) {
+
+}
+
+@media(min-width:767px) {
+
+}
+
+@media(min-width:768px) {
+
+}
+
+@media(min-width:992px) {
+
+}
+
+@media(min-width:1200px) {
+
+}

@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+/*corpo*/
+*{
+ margin:0;
+ padding:0;
+
+}
+
+body {
+   
+    font-family: 'Dosis', sans-serif;
+	background:#f5f5f5;
+	font-size:62.5%;
+}
+
+.center{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.imgborda {
+	border:5px solid rgb(153,153,153);
+}
+
+section {
+	margin-left:20px;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+
+h1 {
+
+}
+
+h4 {
+	display:inline;
+	text-align:justify;
+}
+
+p {
+	font-size:2.4em;
+	text-align:justify;
+	display:inline;
+}
+
+/***** HEADER ******/
+.faixaHeader {
+	background:#7AC943;
+	height:auto;
+	padding:5px 0px;
+	z-index:1500;
+	top:0px;
+	width:100%;
+}
+
+.tituloLogo {
+	float:none;
+	margin:0 auto;
+}
+
+.logo {
+	
+}
+
+.pesquisa button{
+  max-width:40px;
+}
+
+.pesquisa input {
+
+}
+
+/*****************/
+
+.conteudo {
+	background: white;
+	height:auto;
+	padding-bottom:20px;
+	margin-top:60px;
+}
+
+.programas {
+	margin-bottom:5px;
+}
+
+.sanfonas {
+
+}
+
+.titulo {
+}
+
+.descricao {
+	padding-top:15px;
+}
+
+.sanfonas h4 {
+	font-size:1.8em;
+}
+
+.sanfonas img {
+
+}
+
+.sanfonas p {
+	font-size:1.1em;
+	color:rgb(102,102,102);
+	line-height:30px;
+	font-weight:200;
+}
+
+.imagem img{
+	border:2px solid  rgb(153,153,153);
+
+}
+
+.texto p {
+	text-align:justify;
+}
+
+
+/****************botoes*************/
+
+.botoes {
+	padding-right:0px;
+	padding-top:0px;
+
+}
+
+.botoes button:first-child {
+	background:rgb(0,153,0);
+	margin-right:0px;
+}
+
+
+.botoes button:first-child:hover {
+	background:rgb(220,0,0);
+	margin-right:0px;
+	border:none;
+}
+
+.botoes button {
+	background:#0080c0;
+}
+
+
+.iconDownload {
+	font-size:18px;
+}
+
+.iconDownload font {
+	font-family:calibri,Verdana, Geneva, sans-serif;
+	font-size:18px;
+}
+
+/***************SANFONA***********************/
+
+.sanfona {
+	border-top:4px solid rgb(0,128,192);
+}
+
+.sanfona p {
+	font-size:18px;
+	border-bottom: 3px solid rgb(0,128,192);
+	padding-bottom:10px;
+}
+
+.sanfona h4 {
+	font-size:3.8em;
+	padding:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+	text-align:center;
+}
+
+.sanfona h5 {
+padding:5px;
+}
+
+
+.tutoImagens:last-child{
+	margin-bottom:25px;
+}
+
+.tutoImagens {
+	padding:5px 0px 5px 0px;
+}

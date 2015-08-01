@@ -1,0 +1,90 @@
+// Bootstrap Button Variant
+
+.button-variant(@color; @background; @border) {
+	color: @color;
+	background-color: @background;
+	border-color: @border;
+
+	&:hover,
+	&:focus,
+	&:active,
+	&.active,
+	.open .dropdown-toggle& {
+		color: @color;
+		background-color: darken(@background, 10%);
+        border-color: darken(@border, 12%);
+	}
+	&:active,
+	&.active,
+	.open .dropdown-toggle& {
+		background-image: none;
+	}
+	&.disabled,
+	&[disabled],
+	fieldset[disabled] & {
+		&,
+		&:hover,
+		&:focus,
+		&:active,
+		&.active {
+			background-color: @background;
+			border-color: @border;
+		}
+	}
+
+.badge {
+		color: @background;
+		background-color: @color;
+	}
+}
+
+.radius(@corner: 10px){
+	-webkit-border-radius:@corner;
+	-moz-border-radius:@corner;
+    -o-border-radius:@corner;
+    -ms-border-radius:@corner;
+	border-radius: @corner;
+}
+
+.gradient() {
+    background: -moz-linear-gradient(left,  rgba(245,249,240,1) 0%, rgba(241,242,239,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(245,249,240,1)), color-stop(100%,rgba(241,242,239,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(245,249,240,1) 0%,rgba(241,242,239,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(245,249,240,1) 0%,rgba(241,242,239,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(245,249,240,1) 0%,rgba(241,242,239,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(245,249,240,1) 0%,rgba(241,242,239,1) 100%); /* W3C */
+}
+
+.transition(@efeito:0.4s) {
+    -webkit-transition:@efeito;
+	-moz-transition:@efeito;
+	-o-transition:@efeito;
+	-ms-transition:@efeito;
+}
+
+// Background Features
+
+.background-cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+// Font Selections
+
+.serif-font() {
+	font-family: 'Dosis', sans-serif;
+}
+
+.script-font() {
+	font-family: 'Dosis', sans-serif;
+}
+
+.body-font() {
+	ffont-family: 'Dosis', sans-serif;
+}
+
+.heading-font() {
+	font-family: 'Dosis', sans-serif;
+}
